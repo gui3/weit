@@ -15,7 +15,9 @@
     }
   }
 
-  function weit (condition, time = 10, max = 10000, total = 0) {
+  function weit (condition, time = 10, maxTime = 120000) {
+    let total = 0
+
     const that = new Promise((resolve, reject) => {
       function check () {
         // console.log(total)
@@ -30,7 +32,7 @@
           }
         }
 
-        if (total > max) {
+        if (total > maxTime) {
           clearInterval(interval)
           reject(new Error('weit::max time elapsed'))
         } else if (errorHandler()) {
