@@ -1,0 +1,29 @@
+{
+  "name": "weit",
+  "version": "0.0.1",
+  "description": "WEIT for condition THEN use promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gui3/frum.git"
+  },
+  "keywords": [
+    "Promise",
+    "wrapper",
+    "around",
+    "conditions",
+    "wait"
+  ],
+  "author": {
+    "name": "gui3",
+    "email": "guillaume.silvent@hotmail.fr"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gui3/weit/issues"
+  },
+  "homepage": "https://github.com/weit/frum#readme"
+}
