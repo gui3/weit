@@ -39,6 +39,20 @@ pre {
 
 <code><pre class="prettyprint">
 
+// usage
+weit(_ => condition)
+  .then(_ => action)
+
+// example
+let i
+
+weit(_ => i)
+  .then(_ => console.log('yes'))
+  .catch(e => {throw e})
+
+// wait a few seconds
+i = true
+// outputs "yes"
 
 </pre></code>
 

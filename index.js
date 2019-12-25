@@ -15,10 +15,10 @@
     }
   }
 
-  function weit (condition, time = 100, max = 10000, total = 0) {
+  function weit (condition, time = 10, max = 10000, total = 0) {
     const that = new Promise((resolve, reject) => {
       function check () {
-        console.log(total)
+        // console.log(total)
         total += time
 
         function errorHandler () {
